@@ -10,56 +10,76 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Career history & Education</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="Dec. 2022 – Nov. 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Postdoctoral Researcher</h3>
+            <h4 className="vertical-timeline-element-subtitle">KTH - Royal Institute of Technology, Stockholm, Sweden</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Machine Learning applied to acoustic reconstruction. Test and training of Pytorch models.
+            </p>
+            <p>
+              Multiscale methods applied to acoustic.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            className="vertical-timeline-element--education"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2018 - 2022"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">PhD in Engineering Mechanics</h3>
+            <h4 className="vertical-timeline-element-subtitle">KTH - Royal Institute of Technology, Stockholm, Sweden</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Thesis title: Study of adverse pressure gradients in turbulent boundary layers.
+            </p>
+            <p>
+              High-performance computing. Programming. CFD. Data Analysis. Research. Teaching. International conferences.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            className="vertical-timeline-element--education"
+            date="2015 - 2017"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">MSc in Aerospace Engineering</h3>
+            <h4 className="vertical-timeline-element-subtitle">E.T.S.I.Aeronáuticos, Universidad Politécnica de Madrid (UPM)</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Thesis title: Use of Lattice–Boltzmann Method to study the fluid-structure interaction on a circular cylinder in proximity to a wall.
+            </p>
+            <p>
+              Programming. CFD.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            className="vertical-timeline-element--education"
+            date="2009 - 2017"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Bachelor of Science in Aerospace Engineering, Major in Propulsion</h3>
+            <h4 className="vertical-timeline-element-subtitle">E.T.S.I.Aeronáuticos, Universidad Politécnica de Madrid (UPM)</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Mathematical modelling, numerical methods, mathematical optimisation.
+            </p>
+            <p>
+              Classical mechanics, fluid dynamics, thermodynamics, propulsion.
+            </p>
+            <p>
+              Electronics and programming.
+            </p>
+            <p>
+              CAD with Catia and FEM with Nastran/Patran.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
