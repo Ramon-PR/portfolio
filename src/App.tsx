@@ -33,10 +33,10 @@ function App() {
             <Main/>
             <Expertise/>
             <Timeline/>
-            {/* <Project/>
-            <Contact/> */}
+            <Project/>
+            {/* <Contact/> */}
         </FadeIn>
-        <Footer />
+        {/* <Footer /> */}
     </div>
     );
 }
