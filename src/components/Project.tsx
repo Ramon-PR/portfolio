@@ -1,15 +1,7 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
-import mock07 from '../assets/images/mock07.png';
-import mock08 from '../assets/images/mock08.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
 import LBM from '../assets/images/LBM_cyl_vort.png';
+import Biela from '../assets/images/Master_Biela_Star_Engine.png';
+
 
 import '../assets/styles/Project.scss';
 
@@ -43,25 +35,37 @@ function Project() {
 
             {/* Add here projects with some images*/}
             <h1>Personal Projects</h1>
+
             <div className="projects-grid">
-                <div className="project">
-                    <a href="https://github.com/Ramon-PR/ThesisMSc_2DLBM" target="_blank" rel="noreferrer"><img src={LBM} className="zoom" alt="thumbnail" width="100%" /></a>
-                    <a href="https://github.com/Ramon-PR/ThesisMSc_2DLBM" target="_blank" rel="noreferrer"><h2>2D LBM</h2></a>
-                    <p>CFD code developed during my MSc based on 2D LBM.</p>
+
+                {/* Master Thesis project */}
+                <div className="project-card">
+                    <div className="project-image-wrapper">
+                        <a href="https://github.com/Ramon-PR/ThesisMSc_2DLBM" target="_blank" rel="noreferrer">
+                            <img src={LBM} className="project-image" alt="thumbnail" />
+                        </a>
+                    </div>
+                    <div className="project-info">
+                        <a href="https://github.com/Ramon-PR/ThesisMSc_2DLBM" target="_blank" rel="noreferrer">
+                            <h2>2D LBM</h2>
+                        </a>
+                        <p>CFD code developed during my MSc based on 2D LBM.</p>
+                    </div>
                 </div>
-                {/* <div className="project">
-                    <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%" /></a>
-                    <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                    <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+
+                {/* CAD projects */}
+                <div className="project-card">
+                    <div className="project-image-wrapper">
+                        <img src={Biela} className="project-image" alt="thumbnail" width="50%" />
+                    </div>
+                    <div className="project-info">
+                        <h2>CAD projects</h2>
+                        <p>CAD design with different softwares. CATIA V5, FreeCad, ...</p>
+                    </div>
                 </div>
-                <div className="project">
-                    <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%" /></a>
-                    <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                    <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
-                </div> */}
+
+
             </div>
-
-
         </div>
     );
 }
