@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.21ee853b.css",
-    "main.js": "/portfolio/static/js/main.f5d0d6b0.js",
-    "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
+    "main.js": "/portfolio/static/js/main.14a767ff.js",
+    "static/js/453.5d79306b.chunk.js": "/portfolio/static/js/453.5d79306b.chunk.js",
     "static/media/bg-light.png": "/portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/DataScienceImagePortfolio.png": "/portfolio/static/media/DataScienceImagePortfolio.2aa8a19f58280e6f84e5.png",
     "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/Master_Biela_Star_Engine.png": "/portfolio/static/media/Master_Biela_Star_Engine.e38607f76d08cf5d1319.png",
     "static/media/LBM_cyl_vort.png": "/portfolio/static/media/LBM_cyl_vort.dd60f1cf4a62072aee59.png",
     "index.html": "/portfolio/index.html",
     "main.21ee853b.css.map": "/portfolio/static/css/main.21ee853b.css.map",
-    "main.f5d0d6b0.js.map": "/portfolio/static/js/main.f5d0d6b0.js.map",
-    "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
+    "main.14a767ff.js.map": "/portfolio/static/js/main.14a767ff.js.map",
+    "453.5d79306b.chunk.js.map": "/portfolio/static/js/453.5d79306b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21ee853b.css",
-    "static/js/main.f5d0d6b0.js"
+    "static/js/main.14a767ff.js"
   ]
 }
