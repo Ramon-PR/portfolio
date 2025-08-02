@@ -1,6 +1,7 @@
 import React from "react";
 import LBM from '../assets/images/LBM_cyl_vort.png';
 import Biela from '../assets/images/Master_Biela_Star_Engine.png';
+import DataSc from '../assets/images/DataScienceImagePortfolio.png';
 
 
 import '../assets/styles/Project.scss';
@@ -61,6 +62,29 @@ function Project() {
                     <div className="project-info">
                         <h2>CAD projects</h2>
                         <p>CAD design with different softwares. CATIA V5, FreeCad, ...</p>
+                    </div>
+                </div>
+
+                {/* Data Science dev repo */}
+                <div className="project-card">
+                    <div className="project-image-wrapper">
+                        <a href="https://github.com/Ramon-PR/DataScience_exploration" target="_blank" rel="noreferrer">
+                            <img src={DataSc} className="project-image" alt="thumbnail" width="50%" />
+                        </a>
+                    </div>
+                    <div className="project-info">
+                        <a href="https://github.com/Ramon-PR/DataScience_exploration" target="_blank" rel="noreferrer">
+                            <h2> Software dev & Data Science </h2>
+                        </a>
+                        
+                        <p> Github repo where I document through Jupyter notebooks  
+                            my journey in software development and Data Science / ML / AI.
+                        </p>
+                        <p>
+                            *(nbdev, software documentation, Github Actions, CI/CD)
+                        </p>
+
+
                     </div>
                 </div>
 
